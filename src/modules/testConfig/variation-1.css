@@ -1,0 +1,14 @@
+.pah .pah130_loaded,
+.pah130_loaded {
+	& .nominated-day__time-promise:not(:only-child):first-child {
+		display: none;
+	}
+	& .countdownTimer {
+		margin-top: .25em;
+		
+		& .time {
+			color: #4ba840;
+			font-weight: bold;
+		}
+	}
+}
